@@ -1,5 +1,3 @@
-develop_new分支下，与online环境对比，校验performance和stable环境是否缺少配置文件、配置项，与标准配置对比，校验performance和stable环境是否有错误配置项，结果如下：
-
 performance环境
 credits工程：缺少1个配置文件，1个配置项，对比标准配置文件，有0个错误配置项
 global-ms工程：缺少1个配置文件，19个配置项，对比标准配置文件，有0个错误配置项
