@@ -1,0 +1,7 @@
+haitao-matter工程：stable环境缺少0个配置文件、缺少0个配置项，有2个配置项错误
+++++++++++++++++++++++++++++++++++++++++++++++++++
+                                       
+配置文件config.properties有2个配置项错误 
+标准配置项                             performance配置项
+isTestEnvironment=true                 isTestEnvironment=trueandfalse
+environment.name=stable                environment.name=stablehahahahahaha

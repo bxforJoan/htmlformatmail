@@ -1,0 +1,11 @@
+global-cacheIndex工程：stable环境缺少0个配置文件、缺少8个配置项，有0个配置项错误
+++++++++++++++++++++++++++++++++++++++++++++++++++
+cron.properties有5个配置项缺失
+cron.zookeeper.root.name、cron.zookeeper.product.name、cron.zookeeper.connect.url、cron.zookeeper.connect.timeout、cron.lazy.init
+
+dubbo.properties有1个配置项缺失
+dubbo.contact.group
+
+ndir.properties有2个配置项缺失
+ndir.activitySearchUrl、ndir.activityIndexUrl
+++++++++++++++++++++++++++++++++++++++++++++++++++

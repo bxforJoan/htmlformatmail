@@ -1,0 +1,10 @@
+global-online工程：stable环境缺少1个配置文件、缺少6个配置项，有0个配置项错误
+++++++++++++++++++++++++++++++++++++++++++++++++++
+缺失的配置文件:recommendUrls.properties
+++++++++++++++++++++++++++++++++++++++++++++++++++
+configuration.properties有4个配置项缺失
+domainWapHK、privacykey_path、pubkey_directory、xunlei.coupon.schemeid
+
+ndir.properties有2个配置项缺失
+ndir.activitySearchUrl、ndir.activityIndexUrl
+++++++++++++++++++++++++++++++++++++++++++++++++++

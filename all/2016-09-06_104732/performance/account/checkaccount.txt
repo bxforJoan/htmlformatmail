@@ -1,0 +1,13 @@
+account工程：performance环境缺少0个配置文件、缺少2个配置项，有2个配置项错误
+++++++++++++++++++++++++++++++++++++++++++++++++++
+enviroment.properties有1个配置项缺失
+env.master.server
+
+dubbo.properties有1个配置项缺失
+dubbo.registry.file
+++++++++++++++++++++++++++++++++++++++++++++++++++
+                                                                                                                                                                                                
+配置文件jdbc.properties有2个配置项错误                                                                                                                                               
+标准配置项                                                                                                                                                                                      performance配置项
+jdbc.password=haitao_test                                                                                                                                                                       jdbc.password=haitao_test2
+jdbc.url2=jdbc:mysql://10.164.171.16:6000/haitao-perf-test?useUnicode=true&characterEncoding=utf-8&statementInterceptors=com.netease.soa.trace.filters.MySQLStatementInterceptor                jdbc.url2=jdbc2:mysql://10.164.171.16:6000/haitao-perf-test?useUnicode=true&characterEncoding=utf-8&statementInterceptors=com.netease.soa.trace.filters.MySQLStatementInterceptor

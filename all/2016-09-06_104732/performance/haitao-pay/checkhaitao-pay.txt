@@ -1,0 +1,14 @@
+haitao-pay工程：performance环境缺少0个配置文件、缺少78个配置项，有0个配置项错误
+++++++++++++++++++++++++++++++++++++++++++++++++++
+environment.properties有2个配置项缺失
+environment.retrytask.master.server、environment.message.master.server
+
+pay.properties有4个配置项缺失
+wyb.pay.query.account.identity.status.url、wyb.pay.query.pay.verifyAccountIdentifyInfo.url、alipay.transfer.mergepay.callback.url、wyb.seller.AESkey
+
+interface.properties有61个配置项缺失
+eport.zj.companyname、eport.switchmanager.key、eport.switchchangerule.key、eport.eportpushswitches.key、eport.smbatchpushswitch.key、ems.appkey、eport.nb.batchsendorder.key、eport.nb.batchsendwaybill.key、eport.nb.batchsendpayconfirm.key、eport.nb.batchquerydeclarestate.key、nb.eport.userid、nb.eport.key、nb.eport.url、nb.eport.company.name、nb.eport.company.code、nb.eport.orderfrom.code、zz.zto.logiscompanyid、zz.zto.getwaybillurl、zz.zto.pullorderurl、zz.zto.partner、zz.zto.pass、zj.zto.getwaybillurl、zj.zto.pullorderurl、zj.zto.partner、zj.zto.pass、zz.zto.patternid、zz.zto.companyid、zz.zto.msgtype、zz.zto.batchsendwaybillforeport.key、zz.zto.batchgetwaybillno.key、eport.zz.baoshui.sendwaybill.by、eport.zz.orderstatuscheck.url、eport.zz.ordertax.url、eport.zz.batchsendorder.key、eport.zz.batchquerydeclarestate.key、eport.zz.batchqueryordertax.key、eport.zz.sendorder.url、eport.zz.version、eport.zz.company.code、eport.zz.company.key、eport.zz.publickey、eport.zz.eccode、eport.zz.cbecode、eport.zz.ecname、eport.zz.cbename、eport.zz.ecpcodeciq、eport.zz.ecpcodecus、eport.zz.ecpnameciq、eport.zz.ecpnamecus、eport.zz.epaycode、eport.zz.epayname、eport.zz.alipaycode、eport.zz.alipayname、eport.zz.ztociqcode、eport.zz.ztocuscode、eport.zz.ztociqname、eport.zz.ztocusname、eport.zz.zqcodeciq、eport.zz.zqcodecus、eport.zz.zqnameciq、eport.zz.zqnamecus
+
+privateSettings.properties有11个配置项缺失
+wms.sm.rsa.key、wms.fc.rsa.key、wms.coe.rsa.key、sm.xiasha.url、sm.zz.url、fc.suzhou.url、coe.hk.url、message.app.key、message.app.secret、message.push.url、message.query.number.url
+++++++++++++++++++++++++++++++++++++++++++++++++++

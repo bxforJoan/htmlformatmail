@@ -1,0 +1,319 @@
+<html><head><meta charset='utf-8'>a:link {color: blue}a:visited {color: blue}a:hover {color: blue}a:active {color: blue}</head><body><a name='page_top'><div width='100%' height='1px'></div></a><table border='1' cellspacing='0' width='1000'><tr align='center'><td>环境名</td><td>工程名</td><td>缺少的配置文件个数</td><td>缺失的配置项个数</td><td>错误的配置项个数</td></tr>
+<tr align='center'><td rowspan='12'><a name='performance'>performance</a></td>
+<td><a target='_self' href='#credits'>credits</a></td><td>1</td><td>1</td><td>1</td></tr>
+<tr align='center'><td><a target='_self' href='#global-ms'>global-ms</a></td><td>1</td><td>19</td><td>0</td></tr>
+<tr align='center'><td><a target='_self' href='#disconf'>disconf</a></td><td>0</td><td>0</td><td>0</td></tr>
+<tr align='center'><td><a target='_self' href='#haitaowap'>haitaowap</a></td><td>1</td><td>1</td><td>0</td></tr>
+<tr align='center'><td><a target='_self' href='#haitao-web'>haitao-web</a></td><td>1</td><td>4</td><td>0</td></tr>
+<tr align='center'><td><a target='_self' href='#global-cacheIndex'>global-cacheIndex</a></td><td>0</td><td>5</td><td>0</td></tr>
+<tr align='center'><td><a target='_self' href='#haitao'>haitao</a></td><td>3</td><td>177</td><td>0</td></tr>
+<tr align='center'><td><a target='_self' href='#account'>account</a></td><td>0</td><td>2</td><td>2</td></tr>
+<tr align='center'><td><a target='_self' href='#cps-platform'>cps-platform</a></td><td>2</td><td>0</td><td>0</td></tr>
+<tr align='center'><td><a target='_self' href='#global-online'>global-online</a></td><td>0</td><td>6</td><td>0</td></tr>
+<tr align='center'><td><a target='_self' href='#haitao-matter'>haitao-matter</a></td><td>0</td><td>0</td><td>0</td></tr>
+<tr align='center'><td><a target='_self' href='#haitao-pay'>haitao-pay</a></td><td>0</td><td>78</td><td>0</td></tr>
+<tr height='20px'><td colspan='5'>&nbsp;&nbsp;</td></tr>
+<tr align='center'><td rowspan='12'><a name='stable'>stable</a></td>
+<td><a target='_self' href='#credits'>credits</a></td><td>1</td><td>0</td><td>0</td></tr>
+<tr align='center'><td><a target='_self' href='#global-ms'>global-ms</a></td><td>1</td><td>19</td><td>4</td></tr>
+<tr align='center'><td><a target='_self' href='#disconf'>disconf</a></td><td>0</td><td>0</td><td>0</td></tr>
+<tr align='center'><td><a target='_self' href='#haitaowap'>haitaowap</a></td><td>1</td><td>0</td><td>0</td></tr>
+<tr align='center'><td><a target='_self' href='#haitao-web'>haitao-web</a></td><td>1</td><td>4</td><td>0</td></tr>
+<tr align='center'><td><a target='_self' href='#global-cacheIndex'>global-cacheIndex</a></td><td>0</td><td>8</td><td>0</td></tr>
+<tr align='center'><td><a target='_self' href='#haitao'>haitao</a></td><td>5</td><td>190</td><td>0</td></tr>
+<tr align='center'><td><a target='_self' href='#account'>account</a></td><td>0</td><td>2</td><td>0</td></tr>
+<tr align='center'><td><a target='_self' href='#cps-platform'>cps-platform</a></td><td>2</td><td>0</td><td>0</td></tr>
+<tr align='center'><td><a target='_self' href='#global-online'>global-online</a></td><td>1</td><td>6</td><td>0</td></tr>
+<tr align='center'><td><a target='_self' href='#haitao-matter'>haitao-matter</a></td><td>0</td><td>0</td><td>2</td></tr>
+<tr align='center'><td><a target='_self' href='#haitao-pay'>haitao-pay</a></td><td>0</td><td>79</td><td>0</td></tr>
+</table><br><br><br>
+<table border='1' cellspacing='0' width='1000px'  style='word-break:break-all; word-wrap:break-all;'><tr align='center'><td width='15%'>环境名\工程名</td><td colspan='2'><a name='account'>account</a></td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>performance</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>无</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>
+enviroment.properties有1个配置项缺失<br>
+env.master.server<br>
+<br>
+dubbo.properties有1个配置项缺失<br>
+dubbo.registry.file<br>
+</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td>jdbc.properties:<br>标准:jdbc.password=haitao_test<br>当前:jdbc.password=haitao_test2<br>标准:jdbc.url2=jdbc:mysql://10.164.171.16:6000/haitao-perf-test?useUnicode=true&characterEncoding=utf-8&statementInterceptors=com.netease.soa.trace.filters.MySQLStatementInterceptor<br>当前:jdbc.url2=jdbc2:mysql://10.164.171.16:6000/haitao-perf-test?useUnicode=true&characterEncoding=utf-8&statementInterceptors=com.netease.soa.trace.filters.MySQLStatementInterceptor<br></td></tr>
+<tr height='20px'><td colspan='3'>&nbsp;&nbsp;</td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>stable</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>无</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>
+enviroment.properties有1个配置项缺失<br>
+env.master.server<br>
+<br>
+dubbo.properties有1个配置项缺失<br>
+dubbo.registry.file<br>
+</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td align='left'>无</td></tr>
+</table><br><br><br>
+<table border='1' cellspacing='0' width='1000px'  style='word-break:break-all; word-wrap:break-all;'><tr align='center'><td width='15%'>环境名\工程名</td><td colspan='2'><a name='cps-platform'>cps-platform</a></td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>performance</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>ntrace-home/disconf.properties、ntrace-home/trace-client.properties</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>无</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td align='left'>无</td></tr>
+<tr height='20px'><td colspan='3'>&nbsp;&nbsp;</td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>stable</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>ntrace-home/disconf.properties、ntrace-home/trace-client.properties</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>无</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td align='left'>无</td></tr>
+</table><br><br><br>
+<table border='1' cellspacing='0' width='1000px'  style='word-break:break-all; word-wrap:break-all;'><tr align='center'><td width='15%'>环境名\工程名</td><td colspan='2'><a name='credits'>credits</a></td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>performance</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>interface.properties</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>
+cache.properties有1个配置项缺失<br>
+session_nkv_namespace<br>
+</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td>disconf.properties:<br>标准:disconf.env=test<br>当前:disconf.env=testtest<br></td></tr>
+<tr height='20px'><td colspan='3'>&nbsp;&nbsp;</td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>stable</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>interface.properties</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>无</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td align='left'>无</td></tr>
+</table><br><br><br>
+<table border='1' cellspacing='0' width='1000px'  style='word-break:break-all; word-wrap:break-all;'><tr align='center'><td width='15%'>环境名\工程名</td><td colspan='2'><a name='disconf'>disconf</a></td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>performance</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>无</td></tr><tr><td align='center'>缺失的配置项</td><td align='left'>无</td></tr><tr><td align='center'>错误的配置项</td><td align='left'>无</td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>stable</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>无</td></tr><tr><td align='center'>缺失的配置项</td><td align='left'>无</td></tr><tr><td align='center'>错误的配置项</td><td align='left'>无</td></tr>
+</table><br><br><br>
+<table border='1' cellspacing='0' width='1000px'  style='word-break:break-all; word-wrap:break-all;'><tr align='center'><td width='15%'>环境名\工程名</td><td colspan='2'><a name='global-cacheIndex'>global-cacheIndex</a></td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>performance</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>无</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>
+cron.properties有5个配置项缺失<br>
+cron.zookeeper.root.name、cron.zookeeper.product.name、cron.zookeeper.connect.url、cron.zookeeper.connect.timeout、cron.lazy.init<br>
+</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td align='left'>无</td></tr>
+<tr height='20px'><td colspan='3'>&nbsp;&nbsp;</td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>stable</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>无</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>
+cron.properties有5个配置项缺失<br>
+cron.zookeeper.root.name、cron.zookeeper.product.name、cron.zookeeper.connect.url、cron.zookeeper.connect.timeout、cron.lazy.init<br>
+<br>
+dubbo.properties有1个配置项缺失<br>
+dubbo.contact.group<br>
+<br>
+ndir.properties有2个配置项缺失<br>
+ndir.activitySearchUrl、ndir.activityIndexUrl<br>
+</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td align='left'>无</td></tr>
+</table><br><br><br>
+<table border='1' cellspacing='0' width='1000px'  style='word-break:break-all; word-wrap:break-all;'><tr align='center'><td width='15%'>环境名\工程名</td><td colspan='2'><a name='global-ms'>global-ms</a></td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>performance</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>recommendUrls.properties</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>
+dubbo.properties有1个配置项缺失<br>
+dubbo.registry.file<br>
+<br>
+config.properties有14个配置项缺失<br>
+kaola_ms_web_machines、haitao_web_machines、tesseract.path、ftpServerName、ftpPort、ftpUsername、ftpPassword、ftpHttpUrl、onlineType、cdnList、mail.cahchrefresher、pop.dummy.logistics.name、deleteDistributionGoods.queue.name、deleteDistributionGoods.routing.key<br>
+<br>
+basic-framework.properties有1个配置项缺失<br>
+hostsIp<br>
+<br>
+jdbc.properties有3个配置项缺失<br>
+jdbc_health.readonly.url、jdbc_health.readonly.username、jdbc_health.readonly.password<br>
+</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td align='left'>无</td></tr>
+<tr height='20px'><td colspan='3'>&nbsp;&nbsp;</td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>stable</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>recommendUrls.properties</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>
+dubbo.properties有1个配置项缺失<br>
+dubbo.registry.file<br>
+<br>
+config.properties有14个配置项缺失<br>
+kaola_ms_web_machines、haitao_web_machines、tesseract.path、ftpServerName、ftpPort、ftpUsername、ftpPassword、ftpHttpUrl、onlineType、cdnList、mail.cahchrefresher、pop.dummy.logistics.name、deleteDistributionGoods.queue.name、deleteDistributionGoods.routing.key<br>
+<br>
+basic-framework.properties有1个配置项缺失<br>
+hostsIp<br>
+<br>
+jdbc.properties有3个配置项缺失<br>
+jdbc_health.readonly.url、jdbc_health.readonly.username、jdbc_health.readonly.password<br>
+</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td>dubbo.properties:<br>标准:dubbo.matter.group=stable<br>当前:dubbo.matter.group=stable2<br>标准:dubbo.pricing.spi.group=stable<br>当前:dubbo.pricing.spi.group=stable3<br>cas.properties:<br>标准:nkv.master=10.164.3.132:5198<br>当前:nkv.master=10.164.3.132:5198ex<br>标准:session_nkv_namespace=194<br>当前:session_nkv_namespace=194ex<br></td></tr>
+</table><br><br><br>
+<table border='1' cellspacing='0' width='1000px'  style='word-break:break-all; word-wrap:break-all;'><tr align='center'><td width='15%'>环境名\工程名</td><td colspan='2'><a name='global-online'>global-online</a></td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>performance</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>无</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>
+configuration.properties有4个配置项缺失<br>
+domainWapHK、privacykey_path、pubkey_directory、xunlei.coupon.schemeid<br>
+<br>
+ndir.properties有2个配置项缺失<br>
+ndir.activitySearchUrl、ndir.activityIndexUrl<br>
+</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td align='left'>无</td></tr>
+<tr height='20px'><td colspan='3'>&nbsp;&nbsp;</td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>stable</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>recommendUrls.properties</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>
+configuration.properties有4个配置项缺失<br>
+domainWapHK、privacykey_path、pubkey_directory、xunlei.coupon.schemeid<br>
+<br>
+ndir.properties有2个配置项缺失<br>
+ndir.activitySearchUrl、ndir.activityIndexUrl<br>
+</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td align='left'>无</td></tr>
+</table><br><br><br>
+<table border='1' cellspacing='0' width='1000px'  style='word-break:break-all; word-wrap:break-all;'><tr align='center'><td width='15%'>环境名\工程名</td><td colspan='2'><a name='haitao'>haitao</a></td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>performance</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>kqueue.properties、financial.properties、mq.properties</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>
+environment.properties有1个配置项缺失<br>
+environment.message.master.server<br>
+<br>
+pay.properties有53个配置项缺失<br>
+wyb.pay.url.backend.prefix、wyb.pay.url.alipayPrefix.domestic、is_wyb_acquire_customs_with_identity、is_wx_acquire_customs_with_identity、wyb.pay.close.alipay.url.domestic、wyb.pay.query.pay.custom.url、wyb.pay.query.pay.identify.url、wyb.pay.query.pay.realNameCheck.url、wyb.pay.query.pay.points.account.url、wyb.identify.pc.quick.identify、wyb.identify.wap.quick.identify、wyb.mergepay.callback.url、wyb.callback.refund.alipayUrl、wyb.authorizedPay.url、wyb.sendCoupon.url、wyb.queryBatchTrade.domestic.alipay.url、wyb.pay.refund.alipay.url.domestic、alipay.query.account.balance.url、alipay.queryPayAccount.url、alipay.acquireCustoms.url、alipay.transfer.url、alipay.transfer.callback.url、alipay.verifyRSA、alipay.domestic.zhengzhou.name.str、alipay.domestic.zhengzhou.account、alipay.domestic.zhengzhou.account.platform.storeName、alipay.domestic.hangzhou.youmai.name.str、alipay.domestic.hangzhou.youmai.account、alipay.domestic.hangzhou.youmai.platform.storeName、alipay.abroad.hqg.name.str、alipay.abroad.hqg.account、alipay.abroad.hqg.platform.storeName、alipay.abroad.merge.platform.storeName、alipay.domestic.hangzhou.youmai.pf.account.id、wyb.seller.AESkey、wyb.domestic.zhengzhou.sellerId.id、wyb.domestic.zhengzhou.seller.AESkey、wyb.domestic.zhengzhou.platform.id、wyb.domestic.hangzhou.youmai.sellerId.id、wyb.domestic.hangzhou.youmai.seller.AESkey、wyb.domestic.hangzhou.youmai.platform.id、wx.domestic.zhengzhou.key、wx.domestic.app.zhengzhou.key、wx.domestic.url、wx.domestic.hangzhou.youmai.key、wx.domestic.app.hangzhou.youmai.key、wx.domestic.hangzhou.youmai.new.key、wx.domestic.app.hangzhou.youmai.new.key、wx.domestic.public.app.id、wx.app.domestic.public.app.id、wx.international.platform.id、wx.international.key、wx.international.url<br>
+<br>
+interface.properties有90个配置项缺失<br>
+ems.zz.getwaybillno.url、ems.pushwaybill.account、eport.zj.companyname、eport.zj.xpbs.batchsendorder.key、eport.switchmanager.key、eport.switchchangerule.key、eport.eportpushswitches.key、eport.smbatchpushswitch.key、ems.sendwaybillforeport.url、ems.appkey、eport.nb.batchsendorder.key、eport.nb.batchsendwaybill.key、eport.nb.batchsendpayconfirm.key、eport.nb.batchquerydeclarestate.key、sf.beilun.eport.nb.batchsendorder.key、amazon.lanling.eport.nb.batchsendorder.key、nb.eport.userid、nb.eport.key、nb.eport.url、nb.eport.company.name、nb.eport.company.code、nb.eport.orderfrom.code、zz.zto.logiscompanyid、zz.zto.getwaybillurl、zz.zto.pullorderurl、zz.zto.partner、zz.zto.pass、zj.zto.getwaybillurl、zj.zto.pullorderurl、zj.zto.partner、zj.zto.pass、zz.zto.patternid、zz.zto.companyid、zz.zto.msgtype、zz.zto.batchsendwaybillforeport.key、zz.zto.batchgetwaybillno.key、nb.zto.getwaybillurl、nb.zto.pullorderurl、nb.zto.partner、nb.zto.pass、zto.getmarkurl、eport.zz.baoshui.sendwaybill.by、eport.zz.orderstatuscheck.url、eport.zz.ordertax.url、eport.zz.batchsendorder.key、eport.zz.batchquerydeclarestate.key、eport.zz.batchqueryordertax.key、eport.zz.sendorder.url、eport.zz.version、eport.zz.company.code、eport.zz.company.key、eport.zz.publickey、eport.zz.eccode、eport.zz.cbecode、eport.zz.ecname、eport.zz.cbename、eport.zz.ecpcodeciq、eport.zz.ecpcodecus、eport.zz.ecpnameciq、eport.zz.ecpnamecus、eport.zz.epaycode、eport.zz.epayname、eport.zz.alipaycode、eport.zz.alipayname、eport.zz.wxcode、eport.zz.wxname、eport.zz.ztociqcode、eport.zz.ztocuscode、eport.zz.ztociqname、eport.zz.ztocusname、eport.zz.emsciqcode、eport.zz.emsciqname、eport.zz.zqcodeciq、eport.zz.zqcodecus、eport.zz.zqnameciq、eport.zz.zqnamecus、eport.zz.ytociqcode、eport.zz.ytociqname、sf.isp.http.url、sf.partner.id、sf.partner.token、sf.version.id、sf.sender.id、sf.receiver.id、sf.payment.account.no、sf.aes.key、sf.sign.key、cas.auth.right.url、cas.auth.right.key、cas.auth.right.password<br>
+<br>
+privateSettings.properties有32个配置项缺失<br>
+wms.sm.rsa.key、wms.fc.rsa.key、wms.coe.rsa.key、wms.xpbs.rsa.key、wms.sf.rsa.key、wms.amazon.rsa.key、wms.cosco.rsa.key、sm.xiasha.url、sm.zz.url、sm.dz.url、sm.xiasha.query.url、sm.zz.query.url、sm.dz.query.url、fc.suzhou.url、coe.hk.url、coe.humen.url、xiupin.baoshui.url、xiupin.baoshui.url_https、sf.ningbo.url、sf.ningbo.lading.url、amazon.ningbo.url、sf.hz.damao.url、cosco.cus.code、cosco.md5.key、cosco.wms.push.order.url、cosco.wms.cancel.order.url、cosco.wms.push.purchase.url、cosco.wms.cancel.purchase.url、message.app.key、message.app.secret、message.push.url、message.query.number.url<br>
+<br>
+cas.properties有1个配置项缺失<br>
+openUrl<br>
+</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td align='left'>无</td></tr>
+<tr height='20px'><td colspan='3'>&nbsp;&nbsp;</td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>stable</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>kqueue.properties、ntrace-home/trace-client.properties、financial.properties、mq.properties、cas.properties</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>
+environment.properties有1个配置项缺失<br>
+environment.message.master.server<br>
+<br>
+pay.properties有67个配置项缺失<br>
+wyb.pay.url.backend.prefix、wyb.pay.url.alipayPrefix.domestic、is_wyb_acquire_customs_with_identity、is_wx_acquire_customs_with_identity、wyb.param.wxpayEncode、wyb.pay.url.wxpayPrefix、wyb.pay.refund.wxpay.url、wyb.pay.callback.wxpay.url、wyb.pay.callback.refund.wxpay.url、wxpay.acquireCustoms.url、wyb.wxpay.customs.companyCode、wxpay.queryCustoms.url、wxpay.queryOrderDetail.url、wx.abroad.platform.id、wx.domestic.zhengzhou.platform.id、wx.app.domestic.zhengzhou.platform.id、wx.domestic.hangzhou.youmai.platform.id、wx.app.domestic.hangzhou.youmai.platform.id、wyb.pay.close.alipay.url.domestic、wyb.pay.query.pay.custom.url、wyb.pay.query.pay.identify.url、wyb.pay.query.pay.realNameCheck.url、wyb.pay.query.pay.points.account.url、wyb.identify.pc.quick.identify、wyb.identify.wap.quick.identify、wyb.mergepay.callback.url、wyb.callback.refund.alipayUrl、wyb.authorizedPay.url、wyb.sendCoupon.url、wyb.queryBatchTrade.domestic.alipay.url、wyb.pay.refund.alipay.url.domestic、alipay.query.account.balance.url、alipay.queryPayAccount.url、alipay.acquireCustoms.url、alipay.transfer.url、alipay.transfer.callback.url、alipay.verifyRSA、alipay.domestic.zhengzhou.name.str、alipay.domestic.zhengzhou.account、alipay.domestic.zhengzhou.account.platform.storeName、alipay.domestic.hangzhou.youmai.name.str、alipay.domestic.hangzhou.youmai.account、alipay.domestic.hangzhou.youmai.platform.storeName、alipay.abroad.hqg.name.str、alipay.abroad.hqg.account、alipay.abroad.hqg.platform.storeName、alipay.abroad.merge.platform.storeName、alipay.domestic.hangzhou.youmai.pf.account.id、wyb.seller.AESkey、wyb.domestic.zhengzhou.sellerId.id、wyb.domestic.zhengzhou.seller.AESkey、wyb.domestic.zhengzhou.platform.id、wyb.domestic.hangzhou.youmai.sellerId.id、wyb.domestic.hangzhou.youmai.seller.AESkey、wyb.domestic.hangzhou.youmai.platform.id、wx.domestic.zhengzhou.key、wx.domestic.app.zhengzhou.key、wx.domestic.url、wx.domestic.hangzhou.youmai.key、wx.domestic.app.hangzhou.youmai.key、wx.domestic.hangzhou.youmai.new.key、wx.domestic.app.hangzhou.youmai.new.key、wx.domestic.public.app.id、wx.app.domestic.public.app.id、wx.international.platform.id、wx.international.key、wx.international.url<br>
+<br>
+interface.properties有90个配置项缺失<br>
+ems.zz.getwaybillno.url、ems.pushwaybill.account、eport.zj.companyname、eport.zj.xpbs.batchsendorder.key、eport.switchmanager.key、eport.switchchangerule.key、eport.eportpushswitches.key、eport.smbatchpushswitch.key、ems.sendwaybillforeport.url、ems.appkey、eport.nb.batchsendorder.key、eport.nb.batchsendwaybill.key、eport.nb.batchsendpayconfirm.key、eport.nb.batchquerydeclarestate.key、sf.beilun.eport.nb.batchsendorder.key、amazon.lanling.eport.nb.batchsendorder.key、nb.eport.userid、nb.eport.key、nb.eport.url、nb.eport.company.name、nb.eport.company.code、nb.eport.orderfrom.code、zz.zto.logiscompanyid、zz.zto.getwaybillurl、zz.zto.pullorderurl、zz.zto.partner、zz.zto.pass、zj.zto.getwaybillurl、zj.zto.pullorderurl、zj.zto.partner、zj.zto.pass、zz.zto.patternid、zz.zto.companyid、zz.zto.msgtype、zz.zto.batchsendwaybillforeport.key、zz.zto.batchgetwaybillno.key、nb.zto.getwaybillurl、nb.zto.pullorderurl、nb.zto.partner、nb.zto.pass、zto.getmarkurl、eport.zz.baoshui.sendwaybill.by、eport.zz.orderstatuscheck.url、eport.zz.ordertax.url、eport.zz.batchsendorder.key、eport.zz.batchquerydeclarestate.key、eport.zz.batchqueryordertax.key、eport.zz.sendorder.url、eport.zz.version、eport.zz.company.code、eport.zz.company.key、eport.zz.publickey、eport.zz.eccode、eport.zz.cbecode、eport.zz.ecname、eport.zz.cbename、eport.zz.ecpcodeciq、eport.zz.ecpcodecus、eport.zz.ecpnameciq、eport.zz.ecpnamecus、eport.zz.epaycode、eport.zz.epayname、eport.zz.alipaycode、eport.zz.alipayname、eport.zz.wxcode、eport.zz.wxname、eport.zz.ztociqcode、eport.zz.ztocuscode、eport.zz.ztociqname、eport.zz.ztocusname、eport.zz.emsciqcode、eport.zz.emsciqname、eport.zz.zqcodeciq、eport.zz.zqcodecus、eport.zz.zqnameciq、eport.zz.zqnamecus、eport.zz.ytociqcode、eport.zz.ytociqname、sf.isp.http.url、sf.partner.id、sf.partner.token、sf.version.id、sf.sender.id、sf.receiver.id、sf.payment.account.no、sf.aes.key、sf.sign.key、cas.auth.right.url、cas.auth.right.key、cas.auth.right.password<br>
+<br>
+privateSettings.properties有32个配置项缺失<br>
+wms.sm.rsa.key、wms.fc.rsa.key、wms.coe.rsa.key、wms.xpbs.rsa.key、wms.sf.rsa.key、wms.amazon.rsa.key、wms.cosco.rsa.key、sm.xiasha.url、sm.zz.url、sm.dz.url、sm.xiasha.query.url、sm.zz.query.url、sm.dz.query.url、fc.suzhou.url、coe.hk.url、coe.humen.url、xiupin.baoshui.url、xiupin.baoshui.url_https、sf.ningbo.url、sf.ningbo.lading.url、amazon.ningbo.url、sf.hz.damao.url、cosco.cus.code、cosco.md5.key、cosco.wms.push.order.url、cosco.wms.cancel.order.url、cosco.wms.push.purchase.url、cosco.wms.cancel.purchase.url、message.app.key、message.app.secret、message.push.url、message.query.number.url<br>
+</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td align='left'>无</td></tr>
+</table><br><br><br>
+<table border='1' cellspacing='0' width='1000px'  style='word-break:break-all; word-wrap:break-all;'><tr align='center'><td width='15%'>环境名\工程名</td><td colspan='2'><a name='haitao-matter'>haitao-matter</a></td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>performance</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>无</td></tr><tr><td align='center'>缺失的配置项</td><td align='left'>无</td></tr><tr><td align='center'>错误的配置项</td><td align='left'>无</td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>stable</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>无</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>无</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td>config.properties:<br>标准:isTestEnvironment=true<br>当前:isTestEnvironment=trueandfalse<br>标准:environment.name=stable<br>当前:environment.name=stablehahahahahaha<br></td></tr>
+</table><br><br><br>
+<table border='1' cellspacing='0' width='1000px'  style='word-break:break-all; word-wrap:break-all;'><tr align='center'><td width='15%'>环境名\工程名</td><td colspan='2'><a name='haitao-pay'>haitao-pay</a></td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>performance</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>无</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>
+environment.properties有2个配置项缺失<br>
+environment.retrytask.master.server、environment.message.master.server<br>
+<br>
+pay.properties有4个配置项缺失<br>
+wyb.pay.query.account.identity.status.url、wyb.pay.query.pay.verifyAccountIdentifyInfo.url、alipay.transfer.mergepay.callback.url、wyb.seller.AESkey<br>
+<br>
+interface.properties有61个配置项缺失<br>
+eport.zj.companyname、eport.switchmanager.key、eport.switchchangerule.key、eport.eportpushswitches.key、eport.smbatchpushswitch.key、ems.appkey、eport.nb.batchsendorder.key、eport.nb.batchsendwaybill.key、eport.nb.batchsendpayconfirm.key、eport.nb.batchquerydeclarestate.key、nb.eport.userid、nb.eport.key、nb.eport.url、nb.eport.company.name、nb.eport.company.code、nb.eport.orderfrom.code、zz.zto.logiscompanyid、zz.zto.getwaybillurl、zz.zto.pullorderurl、zz.zto.partner、zz.zto.pass、zj.zto.getwaybillurl、zj.zto.pullorderurl、zj.zto.partner、zj.zto.pass、zz.zto.patternid、zz.zto.companyid、zz.zto.msgtype、zz.zto.batchsendwaybillforeport.key、zz.zto.batchgetwaybillno.key、eport.zz.baoshui.sendwaybill.by、eport.zz.orderstatuscheck.url、eport.zz.ordertax.url、eport.zz.batchsendorder.key、eport.zz.batchquerydeclarestate.key、eport.zz.batchqueryordertax.key、eport.zz.sendorder.url、eport.zz.version、eport.zz.company.code、eport.zz.company.key、eport.zz.publickey、eport.zz.eccode、eport.zz.cbecode、eport.zz.ecname、eport.zz.cbename、eport.zz.ecpcodeciq、eport.zz.ecpcodecus、eport.zz.ecpnameciq、eport.zz.ecpnamecus、eport.zz.epaycode、eport.zz.epayname、eport.zz.alipaycode、eport.zz.alipayname、eport.zz.ztociqcode、eport.zz.ztocuscode、eport.zz.ztociqname、eport.zz.ztocusname、eport.zz.zqcodeciq、eport.zz.zqcodecus、eport.zz.zqnameciq、eport.zz.zqnamecus<br>
+<br>
+privateSettings.properties有11个配置项缺失<br>
+wms.sm.rsa.key、wms.fc.rsa.key、wms.coe.rsa.key、sm.xiasha.url、sm.zz.url、fc.suzhou.url、coe.hk.url、message.app.key、message.app.secret、message.push.url、message.query.number.url<br>
+</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td align='left'>无</td></tr>
+<tr height='20px'><td colspan='3'>&nbsp;&nbsp;</td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>stable</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>无</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>
+environment.properties有2个配置项缺失<br>
+environment.retrytask.master.server、environment.message.master.server<br>
+<br>
+pay.properties有5个配置项缺失<br>
+wyb.pay.query.account.identity.status.url、wyb.pay.query.pay.verifyAccountIdentifyInfo.url、wyb.queryBatchTrade.alipay.url、alipay.transfer.mergepay.callback.url、wyb.seller.AESkey<br>
+<br>
+interface.properties有61个配置项缺失<br>
+eport.zj.companyname、eport.switchmanager.key、eport.switchchangerule.key、eport.eportpushswitches.key、eport.smbatchpushswitch.key、ems.appkey、eport.nb.batchsendorder.key、eport.nb.batchsendwaybill.key、eport.nb.batchsendpayconfirm.key、eport.nb.batchquerydeclarestate.key、nb.eport.userid、nb.eport.key、nb.eport.url、nb.eport.company.name、nb.eport.company.code、nb.eport.orderfrom.code、zz.zto.logiscompanyid、zz.zto.getwaybillurl、zz.zto.pullorderurl、zz.zto.partner、zz.zto.pass、zj.zto.getwaybillurl、zj.zto.pullorderurl、zj.zto.partner、zj.zto.pass、zz.zto.patternid、zz.zto.companyid、zz.zto.msgtype、zz.zto.batchsendwaybillforeport.key、zz.zto.batchgetwaybillno.key、eport.zz.baoshui.sendwaybill.by、eport.zz.orderstatuscheck.url、eport.zz.ordertax.url、eport.zz.batchsendorder.key、eport.zz.batchquerydeclarestate.key、eport.zz.batchqueryordertax.key、eport.zz.sendorder.url、eport.zz.version、eport.zz.company.code、eport.zz.company.key、eport.zz.publickey、eport.zz.eccode、eport.zz.cbecode、eport.zz.ecname、eport.zz.cbename、eport.zz.ecpcodeciq、eport.zz.ecpcodecus、eport.zz.ecpnameciq、eport.zz.ecpnamecus、eport.zz.epaycode、eport.zz.epayname、eport.zz.alipaycode、eport.zz.alipayname、eport.zz.ztociqcode、eport.zz.ztocuscode、eport.zz.ztociqname、eport.zz.ztocusname、eport.zz.zqcodeciq、eport.zz.zqcodecus、eport.zz.zqnameciq、eport.zz.zqnamecus<br>
+<br>
+privateSettings.properties有11个配置项缺失<br>
+wms.sm.rsa.key、wms.fc.rsa.key、wms.coe.rsa.key、sm.xiasha.url、sm.zz.url、fc.suzhou.url、coe.hk.url、message.app.key、message.app.secret、message.push.url、message.query.number.url<br>
+</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td align='left'>无</td></tr>
+</table><br><br><br>
+<table border='1' cellspacing='0' width='1000px'  style='word-break:break-all; word-wrap:break-all;'><tr align='center'><td width='15%'>环境名\工程名</td><td colspan='2'><a name='haitaowap'>haitaowap</a></td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>performance</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>configuration.properties</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>
+dubbo.properties有1个配置项缺失<br>
+dubbo.ctt.account.group<br>
+</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td align='left'>无</td></tr>
+<tr height='20px'><td colspan='3'>&nbsp;&nbsp;</td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>stable</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>configuration.properties</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>无</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td align='left'>无</td></tr>
+</table><br><br><br>
+<table border='1' cellspacing='0' width='1000px'  style='word-break:break-all; word-wrap:break-all;'><tr align='center'><td width='15%'>环境名\工程名</td><td colspan='2'><a name='haitao-web'>haitao-web</a></td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>performance</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>recommendUrls.properties</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>
+configuration.properties有4个配置项缺失<br>
+domainWapHK、privacykey_path、pubkey_directory、xunlei.coupon.schemeid<br>
+</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td align='left'>无</td></tr>
+<tr height='20px'><td colspan='3'>&nbsp;&nbsp;</td></tr>
+<tr align='center'><td rowspan='3'><a target='_self' href='#page_top'>stable</a></td><td width='15%'>缺失的配置文件</td>
+<td align='left'>recommendUrls.properties</td></tr>
+<tr><td align='center'>缺失的配置项</td>
+<td align='left'>
+configuration.properties有4个配置项缺失<br>
+domainWapHK、privacykey_path、pubkey_directory、xunlei.coupon.schemeid<br>
+</td></tr>
+<tr><td align='center'>错误的配置项</td>
+<td align='left'>无</td></tr>
+</table><br><br><br>
+</body></html>

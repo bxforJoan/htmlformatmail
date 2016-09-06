@@ -1,0 +1,11 @@
+credits工程：performance环境缺少1个配置文件、缺少1个配置项，有1个配置项错误
+++++++++++++++++++++++++++++++++++++++++++++++++++
+缺失的配置文件:interface.properties
+++++++++++++++++++++++++++++++++++++++++++++++++++
+cache.properties有1个配置项缺失
+session_nkv_namespace
+++++++++++++++++++++++++++++++++++++++++++++++++++
+                                
+配置文件disconf.properties有1个配置项错误 
+标准配置项                      performance配置项
+disconf.env=test                disconf.env=testtest
